@@ -1,0 +1,153 @@
+"use client";
+
+import Link from "next/link";
+import Image from "next/image";
+import Container from "./Container";
+import { useEffect, useState } from "react";
+
+export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <header
+      className={`sticky top-0 z-50 transition-all duration-300 ${
+        isScrolled
+          ? "border-b border-zinc-200 dark:border-zinc-800 bg-white/80 dark:bg-black/80 backdrop-blur-md"
+          : "border-b border-transparent bg-transparent"
+      }`}
+    >
+      <Container>
+        <nav className="flex items-center justify-between py-4">
+          {/* Logo/Brand */}
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/badhealth-logo.png"
+              alt="BadHealth"
+              width={40}
+              height={40}
+              className="rounded-lg"
+              unoptimized
+              priority
+            />
+          </Link>
+
+          {/* Desktop Navigation Links */}
+          <div className="hidden md:flex items-center gap-8">
+            <Link
+              href="/"
+              className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+            >
+              Home
+            </Link>
+            <Link
+              href="/about"
+              className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+            >
+              About
+            </Link>
+            <Link
+              href="/blog"
+              className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+            >
+              Blog
+            </Link>
+            <Link
+              href="/manage-subscription"
+              className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+            >
+              Manage Subscription
+            </Link>
+
+            {/* Download Link */}
+            <a
+              href="https://apps.apple.com/us/app/badhealth-smart-recipes/id6740097820"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-[#0B352B] px-4 py-2 text-sm font-medium text-white hover:bg-[#0e4a3f] transition-colors"
+            >
+              Download
+            </a>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden flex flex-col gap-1.5 p-2"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span
+              className={`block h-0.5 w-6 bg-zinc-900 dark:bg-zinc-100 transition-all duration-300 ${
+                isMobileMenuOpen ? "rotate-45 translate-y-2" : ""
+              }`}
+            />
+            <span
+              className={`block h-0.5 w-6 bg-zinc-900 dark:bg-zinc-100 transition-all duration-300 ${
+                isMobileMenuOpen ? "opacity-0" : ""
+              }`}
+            />
+            <span
+              className={`block h-0.5 w-6 bg-zinc-900 dark:bg-zinc-100 transition-all duration-300 ${
+                isMobileMenuOpen ? "-rotate-45 -translate-y-2" : ""
+              }`}
+            />
+          </button>
+        </nav>
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden border-t border-zinc-200 dark:border-zinc-800 py-4">
+            <div className="flex flex-col gap-4">
+              <Link
+                href="/"
+                className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Home
+              </Link>
+              <Link
+                href="/about"
+                className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                About
+              </Link>
+              <Link
+                href="/blog"
+                className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Blog
+              </Link>
+              <Link
+                href="/manage-subscription"
+                className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Manage Subscription
+              </Link>
+              <a
+                href="https://apps.apple.com/us/app/badhealth-smart-recipes/id6740097820"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full bg-[#0B352B] px-4 py-2 text-sm font-medium text-white hover:bg-[#0e4a3f] transition-colors text-center"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Download
+              </a>
+            </div>
+          </div>
+        )}
+      </Container>
+    </header>
+  );
+}
