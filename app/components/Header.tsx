@@ -61,6 +61,12 @@ export default function Header() {
             >
               Blog
             </Link>
+            <Link
+              href="/faq"
+              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors [font-family:var(--font-google-sans)]"
+            >
+              FAQ
+            </Link>
 
             {/* Download Link */}
             <a
@@ -121,6 +127,13 @@ export default function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Blog
+              </Link>
+              <Link
+                href="/faq"
+                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors [font-family:var(--font-google-sans)]"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                FAQ
               </Link>
               <a
                 href="https://apps.apple.com/us/app/badhealth-smart-recipes/id6740097820"
