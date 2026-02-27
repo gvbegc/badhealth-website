@@ -13,29 +13,29 @@ The result is a fridge full of food that somehow produces nothing to eat.
 
 A better approach starts before you ever get to the store.
 
-## The Core Principle: Shop for Meals, Not Ingredients
+## The core principle: shop for meals, not ingredients
 
 The most common grocery mistake is buying ingredients in isolation. You buy spinach because spinach is healthy. You buy chicken because you should eat more protein. You buy a bag of quinoa because you read something about quinoa.
 
 But none of those things connect into meals, and when 7pm rolls around, you still don't know what to cook.
 
-The fix: **plan 4-5 meals before you make your list**, then reverse-engineer the ingredients you need. This shifts grocery shopping from abstract health intentions to concrete meal production.
+The fix: **plan 4-5 meals before you make your list**, then work backwards to the ingredients you need.
 
-## Step 1: Pick Your Meals First
+## Step 1: Pick your meals first
 
-Before writing a single item on your list, decide what you're actually cooking this week. It doesn't have to be precise — you don't need to assign meals to days. Just pick 5 dinners, 3 breakfast options, and a few lunch staples.
+Before writing a single item on your list, decide what you're actually cooking this week. It doesn't have to be precise. You don't need to assign meals to specific days. Just pick 5 dinners, 3 breakfast options, and a few lunch staples.
 
 Write those meals down. Then list every ingredient required for each one.
 
-## Step 2: Check Your Fridge and Pantry Before You Go
+## Step 2: Check your fridge and pantry before you go
 
-This is the step most people skip, and it's the one that causes the most food waste. Check what you already have. Cross off anything on your list that's already in your kitchen.
+This is the step most people skip, and it's where most food waste starts. Check what you already have. Cross off anything on your list that's already in your kitchen.
 
 You almost always have more than you think.
 
-## Step 3: Organize by Store Section
+## Step 3: Organize by store section
 
-A list written in the order you wander the store is a list that leads to forgotten items and impulse buys. Organize your list by section:
+A list written in random order leads to forgotten items and impulse buys. Organize by section:
 
 - **Produce**
 - **Proteins** (meat, fish, eggs)
@@ -43,11 +43,11 @@ A list written in the order you wander the store is a list that leads to forgott
 - **Grains and pantry**
 - **Frozen**
 
-Shopping by section keeps you focused and cuts your time in the store in half.
+Shopping by section keeps you focused and cuts your time in the store considerably.
 
-## The Healthy Grocery List Foundation
+## The grocery list foundation
 
-Every week, regardless of what specific meals you're planning, these categories should be on your list:
+Every week, regardless of what specific meals you're planning, these categories should be covered:
 
 **Produce (aim for color variety):**
 - 2-3 leafy greens (spinach, kale, arugula)
@@ -69,22 +69,20 @@ Every week, regardless of what specific meals you're planning, these categories 
 - Nut butter, canned fish (tuna, sardines)
 - Soy sauce, hot sauce, vinegar
 
-This foundation, adjusted weekly based on your planned meals, produces a kitchen that can always make something good.
+Adjust this weekly based on your planned meals and you'll almost always have what you need to cook something good.
 
-## The Rule About Processed Food
+## The rule about processed food
 
-There's no need to completely avoid processed food. But a useful rule is: **shop the perimeter of the store first**. Produce, meat, dairy, and eggs line most store perimeters. The interior aisles are where ultra-processed items live.
+There's no need to completely avoid processed food. But a useful rule: **shop the perimeter of the store first**. Produce, meat, dairy, and eggs line most store perimeters. The interior aisles are where ultra-processed items live.
 
-If your cart is 80% perimeter food, you're doing well.
+If your cart is mostly perimeter food, you're doing well.
 
-## Sticking to the List
+## Sticking to the list
 
-The best system falls apart at the register if you haven't eaten before you go. Shopping while hungry is the single most reliable way to blow your grocery budget and your nutrition goals in one trip.
+The best system falls apart at the register if you haven't eaten before you go. Shopping hungry is the most reliable way to blow your grocery budget and your nutrition goals in a single trip.
 
 Eat first. Shop second.
 
-## When Your Fridge Does the Planning For You
+## When your fridge does the planning for you
 
-BadHealth's grocery list feature generates a personalized shopping list based on your nutrition goals and what you're already cooking. Instead of building a list from scratch every week, the app tells you exactly what to buy based on what you need — and nothing you don't.
-
-It's the difference between hoping your grocery run leads to healthy meals and knowing it will.
+BadHealth's grocery list feature generates a shopping list based on your nutrition goals and what you're already cooking. Instead of building a list from scratch every week, the app tells you what to buy based on what you actually need.

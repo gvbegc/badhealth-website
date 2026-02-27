@@ -7,23 +7,23 @@ author: "BadHealth Team"
 readTime: "6 min read"
 ---
 
-You've been there. It's 6pm, you're hungry, you open the fridge, and you just... stare. Half a zucchini, some leftover rice, a couple eggs, wilting spinach. Nothing feels like a meal.
+It's 6pm, you're hungry, you open the fridge, and you just stare. Half a zucchini, some leftover rice, a couple eggs, wilting spinach. None of it looks like a meal.
 
-The good news: almost any combination of real ingredients can become something genuinely good. You just need a framework.
+Almost any combination of real ingredients can become something genuinely good. You just need a framework.
 
-## Start With Your Protein
+## Start with your protein
 
-The fastest way to figure out what to cook is to identify what protein you have. Protein anchors the meal. Eggs, chicken, tofu, canned chickpeas, Greek yogurt — these are your starting points.
+The fastest way to figure out what to cook is to identify what protein you have. Protein anchors the meal. Eggs, chicken, tofu, canned chickpeas, Greek yogurt are your starting points.
 
-If you have eggs, you can make a frittata, a fried rice, shakshuka, or a grain bowl. If you have canned beans, you have the base for a burrito bowl, a soup, or a quick curry. Always start here.
+If you have eggs, you can make a frittata, fried rice, shakshuka, or a grain bowl. If you have canned beans, you have the base for a burrito bowl, a soup, or a quick curry. Start here every time.
 
-## Build Around What Needs to Be Used First
+## Build around what needs to go first
 
-That wilting spinach? That's tonight's meal, not something to save for later. A good rule of thumb: **cook what's going bad first**. This cuts food waste dramatically and forces you to be creative in a good way.
+That wilting spinach? That's tonight's meal, not something to save for later. A useful rule: **cook what's going bad first**. This cuts food waste and forces creativity in a good way.
 
-Soft vegetables (spinach, zucchini, mushrooms) are almost always best sautéed quickly in olive oil with garlic. That combination alone is the base of dozens of meals.
+Soft vegetables (spinach, zucchini, mushrooms) are almost always best sautéed quickly in olive oil with garlic. That combination is the base of dozens of meals.
 
-## The Formula That Works Every Time
+## The formula that works every time
 
 Here's a simple mental model for turning random fridge contents into a real meal:
 
@@ -31,27 +31,27 @@ Here's a simple mental model for turning random fridge contents into a real meal
 
 - **Grain:** Rice, pasta, quinoa, bread, tortilla
 - **Protein:** Eggs, chicken, beans, tofu, cheese
-- **Vegetable:** Whatever's in the fridge — roasted, sautéed, or raw
+- **Vegetable:** Whatever's in the fridge, roasted, sautéed, or raw
 - **Sauce:** Olive oil + lemon, soy sauce + sesame, yogurt + garlic, hot sauce
 
-Follow this formula and you'll almost never eat a bad meal from your fridge again.
+Follow this and you'll almost never eat a bad meal from your fridge.
 
-## Don't Underestimate Pantry Staples
+## Don't underestimate pantry staples
 
-Your fridge doesn't work alone. Olive oil, soy sauce, canned tomatoes, garlic, onions, lemon — these transform ordinary ingredients into something that tastes intentional. A bowl of sautéed vegetables over rice is boring. The same bowl with garlic, soy sauce, sesame oil, and a soft-boiled egg is dinner.
+Your fridge doesn't work alone. Olive oil, soy sauce, canned tomatoes, garlic, onions, lemon transform ordinary ingredients into something that tastes like you meant it. A bowl of sautéed vegetables over rice is boring. The same bowl with garlic, soy sauce, sesame oil, and a soft-boiled egg is dinner.
 
-Keep these staples stocked and your fridge's leftovers will always have something to work with.
+Keep these stocked and your leftovers will always have something to work with.
 
-## When You're Really Stuck: The Egg is Always the Answer
+## When you're stuck: eggs
 
-If all else fails, crack some eggs. A fried egg on top of almost anything — leftover vegetables, toast, rice, even a salad — makes it a meal. It adds protein, richness, and that satisfying quality that makes food feel complete.
+If nothing else comes together, crack some eggs. A fried egg on top of leftover vegetables, toast, or rice makes it a meal. Protein, richness, done.
 
-Eggs are the most underrated ingredient in any kitchen.
+Eggs are the most underrated thing in most kitchens.
 
-## Let Technology Help
+## Let technology help
 
-This is exactly what BadHealth was built for. Instead of staring into your fridge and guessing, you take a quick photo and the app identifies what you have and generates meal recommendations tailored to your nutrition goals.
+This is exactly what BadHealth was built for. Instead of guessing, you take a quick photo and the app identifies what you have and generates meal recommendations based on your nutrition goals.
 
-It's the difference between guessing and knowing. Between wasted food and a great meal.
+Less guessing. Less wasted food.
 
-The best cooks aren't the ones with the most expensive ingredients. They're the ones who know what to do with what they have.
+The best cooks know what to do with what they have. That skill is learnable, and having the right tools helps.

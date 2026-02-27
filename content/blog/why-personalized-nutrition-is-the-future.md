@@ -7,54 +7,52 @@ author: "BadHealth Team"
 readTime: "7 min read"
 ---
 
-For most of the last century, nutrition advice has operated on a simple assumption: that there is one correct way to eat, and if everyone followed it, everyone would be healthier.
+For most of the last century, nutrition advice operated on a simple assumption: there is one correct way to eat, and if everyone followed it, everyone would be healthier.
 
-That assumption is increasingly hard to defend.
+That assumption has not held up.
 
-## Why Generic Nutrition Advice Keeps Failing
+## Why generic nutrition advice keeps failing
 
-The evidence is everywhere. Low-fat diets were the consensus recommendation for decades. Then research showed that fat wasn't the culprit in chronic disease — refined carbohydrates were. The advice shifted. Now plant-based eating is ascendant. Keto has passionate advocates and serious research behind it. So does intermittent fasting. So does the Mediterranean diet.
+Low-fat diets were the consensus for decades. Then research showed fat wasn't the primary culprit in chronic disease. The advice shifted toward refined carbohydrates. Now plant-based eating is ascendant. Keto has serious research behind it. So does intermittent fasting. So does the Mediterranean diet.
 
-These aren't fringe positions. Each of them has legitimate scientific support. And yet they often directly contradict each other.
+These aren't fringe positions. Each has legitimate scientific support. And they often directly contradict each other.
 
-The reason isn't that researchers are incompetent. It's that **the research reflects genuine individual variation**. What works extraordinarily well for one person produces mediocre results for another — and the reason is biology.
+The reason isn't that researchers are incompetent. It's that **the research reflects genuine individual variation**. What works well for one person produces mediocre results for another. The reason is biology.
 
-## The Science of Individual Variation
+## The science of individual variation
 
-Recent research has made this concrete in ways that are hard to ignore. A landmark 2015 study published in Cell tracked 800 people's blood sugar responses to identical foods. The variation was enormous. Some participants had sharp blood sugar spikes from bananas and almost no response to cookies. For others, the reverse was true.
+A 2015 study published in Cell tracked 800 people's blood sugar responses to identical foods. The variation was enormous. Some participants had sharp blood sugar spikes from bananas and almost no response to cookies. For others, the reverse was true.
 
-This isn't unusual. It's the norm. Your blood sugar response to food is shaped by your gut microbiome, your genetics, your sleep quality, your stress levels, and your activity habits — a combination so unique to you that the same meal produces fundamentally different metabolic outcomes in different bodies.
+This isn't unusual. It's the norm. Your blood sugar response to food is shaped by your gut microbiome, your genetics, your sleep, your stress, and your activity habits. The same meal produces fundamentally different metabolic outcomes in different bodies.
 
-Generic nutrition advice can't account for this. A food pyramid designed for the average person is, by definition, not designed for you.
+A food pyramid designed for the average person is not designed for you.
 
-## What Personalized Nutrition Actually Means
+## What personalized nutrition actually means
 
-Personalized nutrition means building dietary recommendations around your actual biology, goals, and lifestyle — not a population average.
+Personalized nutrition means building dietary recommendations around your actual biology, goals, and lifestyle rather than a population average.
 
-At the most sophisticated end, this involves microbiome testing (what ZOE pioneered), continuous glucose monitoring, and detailed blood panels. This level of personalization is genuinely transformative for the people who do it.
+At the sophisticated end, this involves microbiome testing (what ZOE pioneered) and continuous glucose monitoring. That level of detail changes things for people who do it.
 
-But meaningful personalization doesn't require testing. It starts with something much simpler: knowing your goals, understanding your body's patterns, and making food choices aligned with both.
+But meaningful personalization doesn't require testing. It starts with knowing your goals, understanding your body's patterns, and making food choices that fit both.
 
-## The Role of Convenience in Healthy Eating
+## The role of convenience in healthy eating
 
-Here's what gets left out of most conversations about nutrition: the biggest determinant of what you eat isn't knowledge. It's friction.
+Here's what gets left out of most nutrition conversations: the biggest determinant of what you eat isn't knowledge. It's friction.
 
-People who eat well consistently aren't necessarily more disciplined or more educated about nutrition. They've reduced the friction between having food in their kitchen and making a healthy choice. The healthy choice is the easy choice.
+People who eat well consistently haven't necessarily read more about nutrition. They've made the healthy choice the easier choice. What you keep in your house predicts your diet more accurately than what you intend to eat.
 
-This is why meal prepping works. It's why having cut vegetables visible in the fridge works. It's why the foods you keep in your house predict your diet more accurately than your intentions do.
+This is why meal prepping works. Cut vegetables in plain sight get eaten. The foods in your kitchen matter more than your plans.
 
-## Connecting What You Have to What You Should Eat
+## Connecting what you have to what you should eat
 
-The gap that most people experience every day is the gap between what's in their fridge and what they should eat. You have a collection of ingredients. You have nutrition goals (even loosely defined ones). Connecting those two things into an actual meal is where the system breaks down.
+The gap most people face every day is between what's in their fridge and what would actually serve their goals. You have ingredients. You have some sense of how you want to eat. Turning those into an actual meal is where things fall apart, night after night.
 
-This is the problem BadHealth was built to solve. Not by telling you what to buy in theory, but by looking at what you actually have and telling you what to make with it — aligned with your specific goals.
+That's the problem BadHealth was built to solve. Not by telling you what to buy in theory, but by looking at what you actually have and suggesting what to make with it, calibrated to your specific goals.
 
-Scan your fridge. Get meal recommendations calibrated to your nutrition profile. Eat better without thinking harder.
+Scan your fridge and get meal recommendations built around your nutrition profile.
 
-## The Future Is Personal
+## The future is personal
 
-The shift toward personalized nutrition isn't a trend. It's the natural endpoint of a field that has spent decades discovering that human biology is too varied for universal prescriptions.
+The shift toward personalized nutrition is where a field ends up after decades of discovering that human biology is too varied for universal advice.
 
-The best diet isn't the Mediterranean diet or the carnivore diet or any other named framework. It's the one built around your body, your life, and your goals. That's what personalized nutrition delivers — and it's becoming more accessible every year.
-
-The question isn't whether personalized nutrition works. It's whether you have the tools to make it practical in your daily life.
+The best diet isn't the Mediterranean diet or any other named framework. It's the one built around your body and your life. The tools to make that practical are getting better every year.
