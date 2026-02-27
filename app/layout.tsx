@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const googleSans = localFont({
   src: "./fonts/GoogleSans-VariableFont_GRAD,opsz,wght.ttf",
@@ -43,6 +44,7 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

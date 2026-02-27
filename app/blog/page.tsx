@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAllPosts } from "@/lib/blog";
 import type { Metadata } from "next";
 
@@ -53,10 +54,14 @@ export default function BlogPage() {
         {featured && (
           <Link href={`/blog/${featured.slug}`} className="group block mb-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-              <div className="bg-zinc-100 rounded-2xl aspect-[16/10] flex items-center justify-center overflow-hidden">
-                <div className="text-zinc-300 text-sm font-medium tracking-wide uppercase">
-                  Featured
-                </div>
+              <div className="relative rounded-2xl aspect-[16/10] overflow-hidden">
+                <Image
+                  src="/badhealth-fridge-scan-app-hero.png"
+                  alt="BadHealth blog"
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
               </div>
               <div>
                 <span
@@ -114,10 +119,14 @@ export default function BlogPage() {
               href={`/blog/${post.slug}`}
               className="group flex flex-col"
             >
-              <div className="bg-zinc-100 rounded-xl aspect-[16/10] mb-5 overflow-hidden flex items-center justify-center">
-                <div className="text-zinc-300 text-xs font-medium tracking-wide uppercase">
-                  {post.category}
-                </div>
+              <div className="relative rounded-xl aspect-[16/10] mb-5 overflow-hidden">
+                <Image
+                  src="/badhealth-fridge-scan-app-hero.png"
+                  alt={post.title}
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
               </div>
               <span
                 className={`inline-block self-start text-xs font-semibold px-3 py-1 rounded-full mb-3 ${

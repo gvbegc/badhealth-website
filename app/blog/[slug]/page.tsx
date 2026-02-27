@@ -1,6 +1,7 @@
 import { getPostBySlug, getAllPosts } from "@/lib/blog";
 import { marked } from "marked";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -98,9 +99,18 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </header>
 
-      {/* Hero image placeholder — swap for real image when available */}
+      {/* Hero image */}
       <div className="max-w-4xl mx-auto px-6 mb-12">
-        <div className="bg-zinc-100 rounded-2xl aspect-[16/7] w-full" />
+        <div className="relative rounded-2xl aspect-[16/7] w-full overflow-hidden">
+          <Image
+            src="/badhealth-fridge-scan-app-hero.png"
+            alt={post.title}
+            fill
+            className="object-cover"
+            unoptimized
+            priority
+          />
+        </div>
       </div>
 
       {/* Body */}

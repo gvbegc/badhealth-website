@@ -1,49 +1,48 @@
-import Container from "../Container";
 import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="py-20 md:py-32">
-      <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left side - Content */}
-          <div>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-normal text-black tracking-tight leading-tight">
-              BadHealth is the first personalized fridge scan app for families
-            </h1>
-            <p className="mt-6 text-sm md:text-base text-black">
-              BadHealth is the first research-backed mobile app that scans your fridge and gives you meal recommendations tailored to your unique health goals. Whether you're cooking for yourself or a small family, we make it easy to eat sustainably.
-            </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <a
-                href="https://apps.apple.com/us/app/badhealth-smart-recipes/id6740097820"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-[#0B352B] px-8 py-3 text-base font-medium text-white hover:bg-[#0e4a3f] transition-colors text-center"
-              >
-                Download
-              </a>
-              <a
-                href="#"
-                className="rounded-full bg-white border border-zinc-300 px-8 py-3 text-base font-medium text-black hover:bg-zinc-50 transition-colors text-center"
-              >
-                Get 15% off
-              </a>
-            </div>
-          </div>
+    <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <Image
+        src="/badhealth-fridge-scan-app-hero.png"
+        alt="BadHealth personalized fridge scan app"
+        fill
+        className="object-cover"
+        priority
+        unoptimized
+      />
 
-          {/* Right side - Image */}
-          <div className="relative h-[400px] lg:h-[500px]">
-            <Image
-              src="/hero-image.jpg"
-              alt="BadHealth App"
-              fill
-              className="object-cover rounded-2xl"
-              priority
-            />
-          </div>
+      {/* Gradient overlay — dark at top and bottom, lighter in center for image visibility */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
+
+      {/* Content */}
+      <div className="relative z-10 text-center text-white px-6 max-w-3xl mx-auto">
+        <p className="text-xs md:text-sm font-medium tracking-widest uppercase text-white/70 mb-5">
+          Now available on iOS
+        </p>
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-normal leading-tight tracking-tight">
+          Your fridge.<br />Your perfect meal.
+        </h1>
+        <p className="mt-6 text-base md:text-lg text-white/80 max-w-xl mx-auto leading-relaxed">
+          Scan your fridge and get instant meal recommendations tailored to your health goals. No guesswork. No wasted food.
+        </p>
+        <div className="mt-10">
+          <a
+            href="https://apps.apple.com/us/app/badhealth-smart-recipes/id6740097820"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-full bg-white px-10 py-4 text-base font-medium text-[#0B352B] hover:bg-zinc-100 transition-colors"
+          >
+            Download Free
+          </a>
         </div>
-      </Container>
+      </div>
+
+      {/* Scroll indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/50">
+        <div className="w-px h-8 bg-white/30" />
+      </div>
     </section>
   );
 }
