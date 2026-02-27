@@ -21,7 +21,7 @@ export default function HeroSection() {
         <p className="text-xs md:text-sm font-medium tracking-widest uppercase text-white/70 mb-5">
           Now available on iOS
         </p>
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-normal leading-tight tracking-tight">
+        <h1 className="text-[2.4rem] md:text-6xl lg:text-7xl font-normal leading-tight tracking-tight">
           Your fridge.<br />Your perfect meal.
         </h1>
         <p className="mt-6 text-base md:text-lg text-white/80 max-w-xl mx-auto leading-relaxed">
