@@ -8,10 +8,10 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
           <div>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-normal text-zinc-900 dark:text-zinc-100 tracking-tight leading-tight">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-normal text-black tracking-tight leading-tight">
               BadHealth is the first personalized fridge scan app for families
             </h1>
-            <p className="mt-6 text-sm md:text-base text-zinc-600 dark:text-zinc-400">
+            <p className="mt-6 text-sm md:text-base text-black">
               BadHealth is the first research-backed mobile app that scans your fridge and gives you meal recommendations tailored to your unique health goals. Whether you're cooking for yourself or a small family, we make it easy to eat sustainably.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -25,7 +25,7 @@ export default function HeroSection() {
               </a>
               <a
                 href="#"
-                className="rounded-full bg-white border border-zinc-300 dark:border-zinc-700 dark:bg-zinc-900 px-8 py-3 text-base font-medium text-zinc-900 dark:text-zinc-100 hover:bg-zinc-50 dark:hover:bg-zinc-800 transition-colors text-center"
+                className="rounded-full bg-white border border-zinc-300 px-8 py-3 text-base font-medium text-black hover:bg-zinc-50 transition-colors text-center"
               >
                 Get 15% off
               </a>

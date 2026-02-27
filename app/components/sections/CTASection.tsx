@@ -5,10 +5,10 @@ export default function CTASection() {
     <section className="py-20 md:py-32">
       <Container>
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-normal text-zinc-900 dark:text-zinc-100 tracking-tight leading-tight">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-normal text-black tracking-tight leading-tight">
             Start Your Health Journey Today
           </h2>
-          <p className="mt-6 text-sm md:text-base text-zinc-600 dark:text-zinc-400">
+          <p className="mt-6 text-sm md:text-base text-black ">
             Join thousands of users who have transformed their eating habits with BadHealth. Download now and get started with personalized recipes.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -22,7 +22,7 @@ export default function CTASection() {
             </a>
             <a
               href="/about"
-              className="rounded-full border border-zinc-300 dark:border-zinc-700 px-8 py-4 text-base font-medium text-zinc-900 dark:text-zinc-100 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors"
+              className="rounded-full border border-zinc-300 px-8 py-4 text-base font-medium text-black hover:bg-zinc-50 transition-colors"
             >
               Learn More About Us
             </a>

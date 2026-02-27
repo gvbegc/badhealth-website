@@ -19,10 +19,10 @@ export default function FeaturesSection() {
 
           {/* Right side - Content */}
           <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-normal text-zinc-900 dark:text-zinc-100 tracking-tight leading-tight">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-normal text-black tracking-tight leading-tight">
               How it works
             </h2>
-            <p className="mt-6 text-sm md:text-base text-zinc-600 dark:text-zinc-400">
+            <p className="mt-6 text-sm md:text-base text-black ">
               Take a photo of the contents of your refrigerator to receive meal recommendations aligned with your nutritional goals. Each recommendation includes a detailed analysis of calories, protein, fat, and carbohydrates, as well as a brief explanation of how the meal supports your specific objectives.
             </p>
             <div className="mt-8">

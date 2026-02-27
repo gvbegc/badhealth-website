@@ -78,7 +78,7 @@ export default function DietCardsSection() {
                   <h3 className="text-xl md:text-2xl font-semibold mb-2 uppercase tracking-wide text-white">
                     {card.title}
                   </h3>
-                  <p className="text-sm md:text-base text-white leading-relaxed">
+                  <p className="text-sm md:text-base text-white ">
                     {card.description}
                   </p>
                 </div>

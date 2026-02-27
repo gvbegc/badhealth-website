@@ -22,7 +22,7 @@ export default function Header() {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "border-b border-zinc-200 dark:border-zinc-800 bg-white/80 dark:bg-black/80 backdrop-blur-md"
+          ? "border-b border-zinc-200 bg-white/80 backdrop-blur-md"
           : "border-b border-transparent bg-transparent"
       }`}
     >
@@ -45,27 +45,21 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-8">
             <Link
               href="/"
-              className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
             >
               Home
             </Link>
-            <Link
-              href="/about"
-              className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+            <a
+              href="/#about"
+              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
             >
               About
-            </Link>
+            </a>
             <Link
               href="/blog"
-              className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
             >
               Blog
-            </Link>
-            <Link
-              href="/manage-subscription"
-              className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
-            >
-              Manage Subscription
             </Link>
 
             {/* Download Link */}
@@ -86,17 +80,17 @@ export default function Header() {
             aria-label="Toggle menu"
           >
             <span
-              className={`block h-0.5 w-6 bg-zinc-900 dark:bg-zinc-100 transition-all duration-300 ${
+              className={`block h-0.5 w-6 bg-black transition-all duration-300 ${
                 isMobileMenuOpen ? "rotate-45 translate-y-2" : ""
               }`}
             />
             <span
-              className={`block h-0.5 w-6 bg-zinc-900 dark:bg-zinc-100 transition-all duration-300 ${
+              className={`block h-0.5 w-6 bg-black transition-all duration-300 ${
                 isMobileMenuOpen ? "opacity-0" : ""
               }`}
             />
             <span
-              className={`block h-0.5 w-6 bg-zinc-900 dark:bg-zinc-100 transition-all duration-300 ${
+              className={`block h-0.5 w-6 bg-black transition-all duration-300 ${
                 isMobileMenuOpen ? "-rotate-45 -translate-y-2" : ""
               }`}
             />
@@ -105,35 +99,28 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden border-t border-zinc-200 dark:border-zinc-800 py-4">
+          <div className="md:hidden border-t border-zinc-200 py-4">
             <div className="flex flex-col gap-4">
               <Link
                 href="/"
-                className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
               </Link>
-              <Link
-                href="/about"
-                className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+              <a
+                href="/#about"
+                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About
-              </Link>
+              </a>
               <Link
                 href="/blog"
-                className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
+                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Blog
-              </Link>
-              <Link
-                href="/manage-subscription"
-                className="text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Manage Subscription
               </Link>
               <a
                 href="https://apps.apple.com/us/app/badhealth-smart-recipes/id6740097820"

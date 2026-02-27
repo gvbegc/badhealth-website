@@ -5,15 +5,15 @@ export default function PrivacyPolicy() {
     <div className="min-h-screen py-20">
       <Container>
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 mb-4">
+          <h1 className="text-4xl font-bold text-black mb-4">
             PRIVACY POLICY
           </h1>
 
-          <p className="text-zinc-600 dark:text-zinc-400 mb-8">
+          <p className="text-black mb-8">
             Last updated January 05, 2025
           </p>
 
-          <div className="space-y-8 text-zinc-900 dark:text-zinc-100">
+          <div className="space-y-8 text-black">
             <p>
               This Privacy Notice for Life Satisfaction LLC ("we," "us," or "our"), describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:
             </p>
