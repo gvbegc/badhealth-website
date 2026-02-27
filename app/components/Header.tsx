@@ -45,19 +45,19 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-8">
             <Link
               href="/"
-              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
+              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors [font-family:var(--font-google-sans)]"
             >
               Home
             </Link>
             <a
               href="/#about"
-              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
+              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors [font-family:var(--font-google-sans)]"
             >
               About
             </a>
             <Link
               href="/blog"
-              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
+              className="text-sm font-medium text-black hover:text-zinc-600 transition-colors [font-family:var(--font-google-sans)]"
             >
               Blog
             </Link>
@@ -67,7 +67,7 @@ export default function Header() {
               href="https://apps.apple.com/us/app/badhealth-smart-recipes/id6740097820"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-[#0B352B] px-4 py-2 text-sm font-medium text-white hover:bg-[#0e4a3f] transition-colors"
+              className="rounded-full bg-[#0B352B] px-4 py-2 text-sm font-medium text-white hover:bg-[#0e4a3f] transition-colors [font-family:var(--font-google-sans)]"
             >
               Download
             </a>
@@ -103,21 +103,21 @@ export default function Header() {
             <div className="flex flex-col gap-4">
               <Link
                 href="/"
-                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
+                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors [font-family:var(--font-google-sans)]"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
               </Link>
               <a
                 href="/#about"
-                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
+                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors [font-family:var(--font-google-sans)]"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About
               </a>
               <Link
                 href="/blog"
-                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors"
+                className="text-sm font-medium text-black hover:text-zinc-600 transition-colors [font-family:var(--font-google-sans)]"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Blog
@@ -126,7 +126,7 @@ export default function Header() {
                 href="https://apps.apple.com/us/app/badhealth-smart-recipes/id6740097820"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full bg-[#0B352B] px-4 py-2 text-sm font-medium text-white hover:bg-[#0e4a3f] transition-colors text-center"
+                className="rounded-full bg-[#0B352B] px-4 py-2 text-sm font-medium text-white hover:bg-[#0e4a3f] transition-colors text-center [font-family:var(--font-google-sans)]"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Download
