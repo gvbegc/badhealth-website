@@ -93,8 +93,7 @@ Output only the complete blog post, starting with ---.`;
 
   const stream = client.messages.stream({
     model: 'claude-opus-4-6',
-    max_tokens: 4096,
-    thinking: { type: 'adaptive' },
+    max_tokens: 8192,
     messages: [{ role: 'user', content: prompt }],
   });
 
