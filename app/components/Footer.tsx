@@ -1,8 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import Container from "./Container";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
+  if (pathname.startsWith("/quiz")) return null;
   return (
     <footer className="border-t border-zinc-200 mt-auto bg-transparent">
       <Container>
@@ -89,9 +94,14 @@ export default function Footer() {
 
           {/* Bottom */}
           <div className="mt-8 pt-8 border-t border-zinc-200">
-            <p className="text-sm text-black text-center">
-              &copy; {new Date().getFullYear()} BadHealth. All rights reserved.
-            </p>
+            <div className="flex items-center justify-center gap-4">
+              <p className="text-sm text-black">
+                &copy; {new Date().getFullYear()} BadHealth. All rights reserved.
+              </p>
+              <Link href="/analytics" className="text-[10px] text-zinc-300 hover:text-zinc-500 transition-colors">
+                Analytics
+              </Link>
+            </div>
           </div>
         </div>
       </Container>
