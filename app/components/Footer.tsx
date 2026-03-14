@@ -94,14 +94,9 @@ export default function Footer() {
 
           {/* Bottom */}
           <div className="mt-8 pt-8 border-t border-zinc-200">
-            <div className="flex items-center justify-center gap-4">
-              <p className="text-sm text-black">
-                &copy; {new Date().getFullYear()} BadHealth. All rights reserved.
-              </p>
-              <Link href="/analytics" className="text-[10px] text-zinc-300 hover:text-zinc-500 transition-colors">
-                Analytics
-              </Link>
-            </div>
+            <p className="text-sm text-black text-center">
+              &copy; {new Date().getFullYear()} BadHealth. All rights reserved.
+            </p>
           </div>
         </div>
       </Container>
